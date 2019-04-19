@@ -16,7 +16,10 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: gray;
-  background: url(../images/body-bg.png) repeat fixed;
+  /*background: url(../images/body-bg.png) repeat fixed;*/
+  background-image: url(../images/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #page {
