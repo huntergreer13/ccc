@@ -524,7 +524,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .iframe-container {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 45%;
     padding-top: 35px;
     height: 0;
     overflow: hidden;
@@ -561,6 +561,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-intro h2 {
   font-style: italic;
 }
+
 
 .dailyVerse {
   font-family: "Libre Baskerville", serif;
