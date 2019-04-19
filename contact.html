@@ -55,6 +55,17 @@
 	</head>
 	<body>
 
+		<!--Including the Facebook Javascript SDK--> <!--TODO do we need?-->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
@@ -156,6 +167,27 @@
 			</div>
 
 		</div>
+
+
+		<div id="#fh5co-contact">
+			<div class="row animate-box row-equal">
+				<div class="col-md-6 col-xs-12 animate-box text-center">
+					<div id="vertical-text-view">
+						<h2 class="vertical-alignment">Message us on Facebook</h2>
+					</div>
+				</div>
+				<div class="col-md-6 col-xs-12 animate-box text-center">
+					<div class="fb-page" style="width: 80%"
+					  data-href="https://www.facebook.com/CrossCreekChurchJamestownKentucky/"
+						data-tabs="messages,timeline,events"
+					  data-width="380"
+					  data-hide-cover="false"
+					  data-show-facepile="false">
+					</div>
+				</div>
+			</div>
+		</div>
+
 
 		<div id="fh5co-news">
 			<div class="row animate-box">
