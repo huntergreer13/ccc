@@ -1370,6 +1370,22 @@ input[type="text"] {
   background: url(../images/loader.gif) center no-repeat #fff;
 }
 
+#vertical-text-view
+{
+    height:100%;
+    width:100%;
+    display:table;
+}
+.vertical-alignment
+{
+    display:table-cell;
+    vertical-align:middle;
+}
+.row-equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 .js .animate-box {
   opacity: 0;
 }
